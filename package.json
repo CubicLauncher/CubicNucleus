@@ -1,0 +1,35 @@
+{
+  "name": "cubic-nucleus",
+  "version": "1.0.1",
+  "description": "A module that allows downloading and running minecraft java with node.js",
+  "keywords": [
+    "minecraft",
+    "minecraft-launcher",
+    "minecraft-node",
+    "minecraft-core",
+    "javascript",
+    "node",
+    "nodejs",
+    "minecraft-launcher-core",
+    "optifine",
+    "forge",
+    "fabric"
+  ],
+  "license": "MIT",
+  "author": "dani_adbg, staFF6773, avidevs, santiagolxxowo",
+  "main": "components/Handler.js",
+  "homepage": "https://github.com/SantiagolxxGG/CubicNucleus",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SantiagolxxGG/CubicNucleus.git"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "adm-zip": "^0.5.10",
+    "axios": "^1.7.7",
+    "cli-progress": "^3.12.0",
+    "uuid": "^10.0.0"
+  }
+}
