@@ -27,6 +27,7 @@ The project is not enabled for playing on premium servers (piracy is not support
 ### Get Versions
 
 ```js
+// sin testear
 const { Downloader } = require('cubic-nucleus');
 
 const downloader = new Downloader();
@@ -38,13 +39,9 @@ downloader.getVersions('vanilla').then((data) => console.log(data));
 ### Download Version
 
 ```js
-const { Downloader } = require('cubic-nucleus');
+const { downloadMinecraft } = require('cubic-nucleus');
 
-const downloader = new Downloader();
-
-// Specify the version you want to download (1.8.9) and the directory
-// downloader.download('[version]', '[path]');
-downloader.download('1.8.9', './minecraft');
+downloadMinecraft('./minecraft', '1.16.5', 'release');
 ```
 
 ### Launch Version
